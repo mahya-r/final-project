@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <script src="./assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="./assets/js/login.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-box login">
+            <form action="" id="login-form">
+                <h1>Login</h1>
+                <div class="input-box">
+                    <input type="text" id="username" name="username" placeholder="username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" id="password" name="password" placeholder="password" required>
+                    <i class='bx bxs-lock-alt'><svg id="hide-password" xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-eye-slash" viewBox="0 0 16 16">
+                            <path
+                                d="M13.359 11.238C15.06 9.72 16 8 16 8s-3-5.5-8-5.5a7 7 0 0 0-2.79.588l.77.771A6 6 0 0 1 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755q-.247.248-.517.486z" />
+                            <path
+                                d="M11.297 9.176a3.5 3.5 0 0 0-4.474-4.474l.823.823a2.5 2.5 0 0 1 2.829 2.829zm-2.943 1.299.822.822a3.5 3.5 0 0 1-4.474-4.474l.823.823a2.5 2.5 0 0 0 2.829 2.829" />
+                            <path
+                                d="M3.35 5.47q-.27.24-.518.487A13 13 0 0 0 1.172 8l.195.288c.335.48.83 1.12 1.465 1.755C4.121 11.332 5.881 12.5 8 12.5c.716 0 1.39-.133 2.02-.36l.77.772A7 7 0 0 1 8 13.5C3 13.5 0 8 0 8s.939-1.721 2.641-3.238l.708.709zm10.296 8.884-12-12 .708-.708 12 12z" />
+                        </svg></i>
+                </div>
+                <div class="forgot-link">
+                    <a href="#">forgot password?</a>
+                </div>
+                <button type="submit" id="submit-btn" class="btn">Login</button>
+                <p>or login with social platform</p>
+                <div class="social-icons">
+                    <a href="#"><img src="./assets/img/icon-svg/bxl-facebook.svg" alt=""></a>
+                    <a href="#"><img src="./assets/img/icon-svg/bxl-github.svg" alt=""></a>
+                    <a href="#"><img src="./assets/img/icon-svg/bxl-google.svg" alt=""></a>
+                    <a href="#"><img src="./assets/img/icon-svg/bxl-linkedin.svg" alt=""></a>
+                </div>
+            </form>
+        </div>
+        <div class="form-box register">
+            <form action="">
+                <h1>Registration</h1>
+                <div class="input-box">
+                    <input type="text" id="username" name="username" placeholder="username" required>
+                    <i class="bx bxs-user"></i>
+                </div>
+                <div class="input-box">
+                    <input type="email" id="email" placeholder="Email" required>
+                    <i class="bx bxs-envelope"></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" id="password" name="password " placeholder="password" required>
+                    <!-- <i class='bx bxs-lock-alt'><svg id="hide-password" xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-eye-slash" viewBox="0 0 16 16">
+                            <path
+                                d="M13.359 11.238C15.06 9.72 16 8 16 8s-3-5.5-8-5.5a7 7 0 0 0-2.79.588l.77.771A6 6 0 0 1 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755q-.247.248-.517.486z" />
+                            <path
+                                d="M11.297 9.176a3.5 3.5 0 0 0-4.474-4.474l.823.823a2.5 2.5 0 0 1 2.829 2.829zm-2.943 1.299.822.822a3.5 3.5 0 0 1-4.474-4.474l.823.823a2.5 2.5 0 0 0 2.829 2.829" />
+                            <path
+                                d="M3.35 5.47q-.27.24-.518.487A13 13 0 0 0 1.172 8l.195.288c.335.48.83 1.12 1.465 1.755C4.121 11.332 5.881 12.5 8 12.5c.716 0 1.39-.133 2.02-.36l.77.772A7 7 0 0 1 8 13.5C3 13.5 0 8 0 8s.939-1.721 2.641-3.238l.708.709zm10.296 8.884-12-12 .708-.708 12 12z" />
+                        </svg></i></i> -->
+                </div>
+                <button type="submit" id="submit-btn" class="btn"> Register</button>
+                <p>or login with social platform</p>
+                <div class="social-icons">
+                    <a href="#"><img src="./assets/img/icon-svg/bxl-facebook.svg" alt=""></a>
+                    <a href="#"><img src="./assets/img/icon-svg/bxl-github.svg" alt=""></a>
+                    <a href="#"><img src="./assets/img/icon-svg/bxl-google.svg" alt=""></a>
+                    <a href="#"><img src="./assets/img/icon-svg/bxl-linkedin.svg" alt=""></a>
+                </div>
+            </form>
+        </div>
+        <div class="toggle-box">
+            <div class="toggle-panel toggle-left">
+                <h1>Hello, Welcome</h1>
+                <p>Don't have an accont?</p>
+                <button class="btn register-btn">Register</button>
+            </div>
+            <div class="toggle-panel toggle-right">
+                <h1>Welcome Back!</h1>
+                <p>Don't have an accont?</p>
+                <button class="btn login-btn">Login</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">پیام شما</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                
+                <p id="modal-message">این یک پیام نمونه است!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ورود</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</html>

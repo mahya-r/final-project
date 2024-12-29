@@ -1,0 +1,15 @@
+.custom-navbar {
+  background-color: rgba(212, 156, 34, 0.8901960784);
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: white;
+}
+
+.custom-navbar .nav-link:hover {
+  color: rgb(0, 0, 0);
+  transition: 1s;
+}
+
+/*# sourceMappingURL=cart.css.map */

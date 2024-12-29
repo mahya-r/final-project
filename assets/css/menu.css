@@ -1,0 +1,31 @@
+.card{
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(207, 152, 34);
+    margin-bottom: 10px;
+}
+.btn{
+    background-color: #c98b2d;
+    border: #c98b2d;
+    color: white;
+}
+.btn:hover{
+    background-color: #c98b2daf;
+}
+.custom-navbar{
+    background-color: #c98b2d;
+    color: white;
+}
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: white; /* رنگ سفید برای متن */
+}
+
+/* تغییر رنگ متن در حالت hover */
+.custom-navbar .nav-link:hover {
+  color: rgb(0, 0, 0); /* رنگ زرد در هنگام hover */
+  transition: 1s
+}
+.row{
+    padding: 30px;
+}
